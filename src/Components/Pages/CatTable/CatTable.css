@@ -1,0 +1,59 @@
+.CatTable {
+	margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.CatTable .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.CatTable  table {
+	border-collapse: collapse;
+    width: 80%;
+    /* max-width: 800px;
+    max-height: 200px; */
+    margin: auto;
+    font-size: 16px;
+    border: solid var(--secondary-color) 2px;
+}
+
+.CatTable th {background-color:var(--secondary-color);}
+
+.CatTable th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: solid var(--secondary-color) 2px;
+    /* border: 2px solid; */
+  }
+
+  .CatTable  tbody td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+  }
+
+  @media (max-width: 100px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  }
+  
+.CatTable tbody td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 98%;
+    margin-bottom: 10px;
+  }
+
+  .CatTable  img {
+
+    width: 80px;
+    height: 80px;
+  }
+
+.CatTable input
+{width: 50%;}

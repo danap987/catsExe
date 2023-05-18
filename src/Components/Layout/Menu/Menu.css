@@ -1,0 +1,7 @@
+.Menu {
+    font-size: var(--font-medium);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	
+}

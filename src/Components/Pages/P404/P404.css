@@ -1,0 +1,11 @@
+.P404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	
+}
+
+.P404 link {
+	color:beige;
+}
